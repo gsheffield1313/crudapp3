@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+#posts{
+    width: 50px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    gap: 25px;
+
+}
+
+#msg{
+    color: red;
+}
+
+#money{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.h1{
+    align-items: center;
+}
